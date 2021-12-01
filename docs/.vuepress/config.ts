@@ -7,10 +7,9 @@ const path = require("path")
 export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
     lang: 'en-US',
     title: 'AlexMyk',
-    description: 'AlexMykulych blog',
+    description: 'Alexander Mykulych',
 
     themeConfig: {
-        logo: 'https://vuejs.org/images/logo.png',
         sidebar: [
             {
                 text: 'Posts',
